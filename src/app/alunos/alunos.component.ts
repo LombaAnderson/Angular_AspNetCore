@@ -24,6 +24,10 @@ alunoSelect(aluno: any){
  this.alunoSelecionado = aluno.nome;
 }
 
+voltar(){
+  this.alunoSelecionado = '';
+}
+
   constructor() { }
 
   ngOnInit(): void {
