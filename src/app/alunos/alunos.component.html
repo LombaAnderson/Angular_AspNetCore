@@ -17,7 +17,7 @@
         </tr>
       </thead>
       <tbody>
-        <tr *ngFor="let aluno of alunos" style="cursor: pointer;" (click)="alunoSelect(aluno)" >
+        <tr *ngFor="let aluno of alunos" style="cursor: pointer;" (click)="alunoSelect(aluno)">
           <th scope="row">{{aluno.id}}</th>
           <td>{{aluno.nome}}</td>
           <td>{{aluno.sobrenome}}</td>
